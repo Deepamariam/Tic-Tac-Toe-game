@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.game{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    background-color: #006666;
+    margin: 0 auto;
+    border-radius: 14px;
+}
+
+.game-heading{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 3%;
+    color: white;
+    font-weight: bold;
+}
+
+.game-body{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    
+    padding: 5% 5% 5% 5%;
+}
+
+.game-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cell{
+    display: flex;
+    border: 4px solid gold;
+    font-size: 50px;
+    padding: 5% 5% 5% 5%;
+    width: 19%;
+    height: 9vh;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-family: 'Merienda One', cursive;
+    font-size: 50px;
+    color: white;
+
+}
+
+.game-result-restart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+    padding-bottom: 3%;
+}
+
+
+
+.game-reset{
+  font-size: 17px;
+  padding: 11%;
+  border-radius: 5px;
+  width: 100%;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #009933;
+  border: 2px solid #009933;
+  color: white;
+  font-size: large;
+  transition-duration: 0.4s;
+  
+
+}
+
+.game-reset:hover{
+    background-color: #33cc33;
+    border: 2px solid #33cc33;
+}
+
+.game-status{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10%;
+    font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+}
